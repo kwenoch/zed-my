@@ -1,0 +1,10 @@
+{
+    "Perl Debug lines": {
+        "body": "use Data::Dumper; \\$Data::Dumper::Maxdepth = 3;\nprint STDERR \"##### \" . __LINE__ . \" #######################################################\\n\";\nprint STDERR Dumper(\\$foobar);\nprint STDERR \"##### \" . __LINE__ . \" #######################################################\\n\";",
+        "description": "Insert Perl Data::Dumper debug lines",
+    },
+    "PHP Debug lines": {
+        "body": "global \\$logger;\n\\$logger->log( print_r( \\$foobar, true ), Logger::LOG_ERROR );",
+        "description": "Insert PHP Logger::LOG_ERROR debug lines",
+    },
+}

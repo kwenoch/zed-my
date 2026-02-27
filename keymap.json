@@ -1,0 +1,22 @@
+[
+    {
+        "bindings": {
+            "alt-cmd-shift-k": [
+                "editor::InsertSnippet",
+                {
+                    "name": "Perl Debug lines",
+                },
+            ],
+        },
+    },
+    {
+        "bindings": {
+            "alt-cmd-shift-f": [
+                "editor::InsertSnippet",
+                {
+                    "name": "PHP Debug lines",
+                },
+            ],
+        },
+    },
+]

@@ -1,0 +1,154 @@
+{
+    "languages": {
+        "Perl": {
+            "formatter": {
+                "external": {
+                    "command": "/opt/homebrew/bin/perltidy",
+                    "arguments": [
+                        "--backup-file-extension='/'",
+                        "--character-encoding=utf8",
+                        "--output-line-ending=unix",
+                        "--iterations=2",
+                        "--cuddled-else",
+                        "--continuation-indentation=4",
+                        "--no-outdent-long-lines",
+                        "--maximum-line-length=120",
+                        "--break-at-old-comma-breakpoints",
+                    ],
+                },
+            },
+            "format_on_save": "on",
+        },
+    },
+    "diagnostics": {
+        "lsp_pull_diagnostics": {
+            "enabled": true,
+        },
+        "inline": {
+            "enabled": false,
+        },
+    },
+    "prettier": {
+        "allowed": true,
+    },
+    "completions": {
+        "lsp": true,
+    },
+    "linked_edits": true,
+    "enable_language_server": true,
+    "disable_ai": true,
+    "agent": {
+        "button": false,
+        "favorite_models": [],
+        "model_parameters": [],
+    },
+    "collaboration_panel": {
+        "button": false,
+    },
+    "notification_panel": {
+        "dock": "left",
+    },
+    "git_panel": {
+        "sort_by_path": false,
+        "fallback_branch_name": "trunk",
+        "status_style": "icon",
+        "dock": "right",
+    },
+    "use_system_window_tabs": false,
+    "ssh_connections": [
+        {
+            "host": "cyrodiil",
+            "args": [],
+            "projects": [
+                {
+                    "paths": ["/Users/macos/Documents/Repos/kohaclone.git"],
+                },
+            ],
+        },
+    ],
+    "title_bar": {
+        "show_menus": false,
+        "show_branch_icon": true,
+    },
+    "search": {
+        "center_on_match": true,
+    },
+    "use_smartcase_search": true,
+    "agent_ui_font_size": 15.0,
+    "ui_font_family": ".ZedSans",
+    "buffer_line_height": "comfortable",
+    "icon_theme": {
+        "mode": "system",
+        "light": "Zed (Default)",
+        "dark": "Zed (Default)",
+    },
+    "terminal": {
+        "env": {},
+        "font_size": 14.0,
+        "cursor_shape": "block",
+        "blinking": "on",
+    },
+    "project_panel": {
+        "hide_root": false,
+        "bold_folder_labels": false,
+        "dock": "right",
+        "git_status": true,
+        "auto_fold_dirs": false,
+    },
+    "outline_panel": {
+        "dock": "right",
+        "git_status": true,
+    },
+    "base_keymap": "VSCode",
+    "status_bar": {
+        "experimental.show": true,
+    },
+    "tab_bar": {
+        "show": true,
+    },
+    "tabs": {
+        "close_position": "left",
+        "file_icons": true,
+        "git_status": true,
+    },
+    "gutter": {
+        "folds": true,
+    },
+    "minimap": {
+        "show": "never",
+    },
+    "scrollbar": {
+        "axes": {
+            "horizontal": true,
+            "vertical": true,
+        },
+    },
+    "current_line_highlight": "gutter",
+    "cursor_blink": true,
+    "autosave": {
+        "after_delay": {
+            "milliseconds": 1000,
+        },
+    },
+    "confirm_quit": true,
+    "buffer_font_fallbacks": ["monospace"],
+    "buffer_font_family": ".ZedMono",
+    "file_types": {
+        "html": ["*.inc", "*.tt"],
+    },
+    "show_whitespaces": "selection",
+    "ensure_final_newline_on_save": true,
+    "indent_guides": {
+        "enabled": true,
+    },
+    "wrap_guides": [50, 80, 120],
+    "soft_wrap": "editor_width",
+    "tab_size": 4,
+    "ui_font_size": 15.0,
+    "buffer_font_size": 15.0,
+    "theme": {
+        "mode": "system",
+        "light": "Gruvbox Light Hard",
+        "dark": "Gruvbox Dark Hard",
+    },
+}
