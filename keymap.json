@@ -1,6 +1,16 @@
 [
     {
         "bindings": {
+            "cmd-k cmd-f": [
+                "task::Spawn",
+                {
+                    "task_name": "Koha: Tidy current file",
+                },
+            ],
+        },
+    },
+    {
+        "bindings": {
             "alt-cmd-shift-k": [
                 "editor::InsertSnippet",
                 {

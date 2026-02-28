@@ -1,14 +1,14 @@
 [
-  {
-    "label": "Koha: Tidy current file",
-    "command": "docker exec --user kohadev-koha -w /kohadevbox/koha kohadev-koha-1 /bin/bash -c \"source ~/.bashrc; /usr/bin/perl misc/devel/tidy.pl --perltidyrc=/kohadevbox/koha/.perltidyrc $ZED_RELATIVE_FILE\"",
-    "use_new_terminal": false,
-    "allow_concurrent_runs": false,
-    "reveal": "no_focus",
-    "reveal_target": "dock",
-    "hide": "never",
-    "shell": "system",
-    "show_summary": true,
-    "show_command": true,
-  },
+    {
+        "label": "Koha: Tidy current file",
+        "command": "docker exec --user kohadev-koha -w /kohadevbox/koha kohadev-koha-1 /bin/bash -c \"source ~/.bashrc; /usr/bin/perl misc/devel/tidy.pl --perltidyrc=/kohadevbox/koha/.perltidyrc $ZED_RELATIVE_FILE\"",
+        "allow_concurrent_runs": false,
+        "hide": "on_success",
+        "reveal": "no_focus",
+        "reveal_target": "dock",
+        "shell": "system",
+        "show_summary": true,
+        "show_command": true,
+        "use_new_terminal": false,
+    },
 ]
