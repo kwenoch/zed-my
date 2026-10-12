@@ -1,4 +1,15 @@
 {
+    "diff_view_style": "unified",
+    "cli_default_open_behavior": "existing_window",
+    "git": {
+        "enable_diff": false,
+        "disable_git": false,
+        "inline_blame": {
+            "enabled": true
+        },
+        "path_style": "file_name_first",
+        "hunk_style": "staged_hollow"
+    },
     "languages": {
         "Perl": {
             "enable_language_server": false,
@@ -40,11 +51,13 @@
     "enable_language_server": true,
     "disable_ai": true,
     "agent": {
+        "dock": "right",
         "button": false,
         "favorite_models": [],
         "model_parameters": [],
     },
     "collaboration_panel": {
+        "dock": "left",
         "button": false,
     },
     "notification_panel": {
@@ -59,18 +72,20 @@
     "use_system_window_tabs": false,
     "ssh_connections": [
         {
-            "host": "cyrodiil",
+            "host": "essence",
             "args": [],
             "projects": [
                 {
-                    "paths": ["/Users/macos/Documents/Repos/kohaclone.git"],
-                },
-            ],
-        },
+                    "paths": [
+                        "/Users/macos/Documents/Repos/kohaclone.git"
+                    ]
+                }
+            ]
+        }
     ],
     "title_bar": {
+        "show_branch_status_icon": true,
         "show_menus": false,
-        "show_branch_icon": true,
     },
     "search": {
         "center_on_match": true,
@@ -150,7 +165,7 @@
     "buffer_font_size": 15.0,
     "theme": {
         "mode": "system",
-        "light": "Gruvbox Light Hard",
-        "dark": "Gruvbox Dark Hard",
+        "light": "Solarized Light",
+        "dark": "Solarized Dark",
     },
 }
